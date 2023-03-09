@@ -13,12 +13,12 @@ const { deepStrictEqual } = require('assert');
     // usando as funcoes .next, for await e rest/spread
 
 
-    for (const i of fibonacci.execute(3)) {}
+    for await (const i of fibonacci.execute(3)) {}
     // nosso algoritmo vai sempre começar do zero
     const expectedCallCount = 4
     deepStrictEqual(spy.callCount, expectedCallCount)
   }
-
+  
   {
     const fibonacci = new Fibonacci()
     const spy = sinon.spy(fibonacci, fibonacci.execute.name);
@@ -37,7 +37,7 @@ const { deepStrictEqual } = require('assert');
       current: 1,
       next: 2
     })
-
+    
     deepStrictEqual(args, expectedParams);
     deepStrictEqual(results, expectedResult);
   }
