@@ -1,8 +1,8 @@
 {
   "devDependencies": {
-    "mocha": "^8.4.0",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
-    "supertest": "^6.3.0"
+    "supertest": "^6.3.3"
   },
   "name": "aula04-coverage-e2e",
   "version": "1.0.0",
@@ -112,6 +112,7 @@
     "yocto-queue": "^0.1.0"
   },
   "scripts": {
+    "start": "node api.js",
     "test": "npx mocha -w --parallel *.test.js",
     "test-cov": "npx nyc npx mocha --parallel *.test.js"
   },

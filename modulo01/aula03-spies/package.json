@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node src/fibonacci.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "sinon": "^9.2.4"
+  "dependencies": {
+    "sinon": "^15.0.2"
   }
 }
