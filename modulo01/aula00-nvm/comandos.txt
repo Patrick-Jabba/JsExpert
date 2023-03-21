@@ -1,0 +1,10 @@
+nvm install 20 -> instala a versao 18
+nvm install --lts -> versao lts
+nvm list
+nvm use 18 -> use a 18 que esta instalada na maquina
+nvm alias default 18 -> define a versao padrado do node para ser a 18
+
+criar .nvmrc com a versão desejada e nvm use para ativar aquela versão
+
+node -v > .nvmrc => salva a versao apropriada 
+
