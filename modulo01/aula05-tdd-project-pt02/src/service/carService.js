@@ -1,8 +1,8 @@
-const BaseRepository = require('../repository/base/baseRepository')
+const CarRepository = require('../repository/carRepository')
 
 class CarService {
   constructor({ cars }) {
-    this.carRepository = new BaseRepository({ file: cars })
+    this.carRepository = new CarRepository({ file: cars })
   }
 
   getRandomPositionFromArray(list) {
