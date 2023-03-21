@@ -1,0 +1,23 @@
+[
+  {
+    "id": "cdb4e27f-8129-4c68-ad62-30a23fe69ba7",
+    "name": "Model T",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "265b4005-0610-45e3-af77-01b6da3e0414",
+    "name": "911",
+    "releaseYear": 2023,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "055f166b-b13a-498e-9b8d-eab7e880f310",
+    "name": "Accord",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  }
+]

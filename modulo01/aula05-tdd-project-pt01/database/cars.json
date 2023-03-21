@@ -1,0 +1,23 @@
+[
+  {
+    "id": "82498604-8087-4bb9-9cd7-551ccb953faf",
+    "name": "Jetta",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "3eab5726-3294-4a0d-8e41-edd8d0298626",
+    "name": "Ranchero",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "b33dc11c-8ccc-4938-bbfd-77c1b36e3b24",
+    "name": "Beetle",
+    "releaseYear": 2022,
+    "available": true,
+    "gasAvailable": true
+  }
+]
